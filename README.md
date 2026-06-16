@@ -137,12 +137,6 @@ RIA explores:
 - signal compression and expansion  
 - identity integrity under uncertainty  
 
----
- 
-**Writing:** [Medium](https://medium.com/@rtfenter) · [Substack](https://substack.com/@rtfenter)
- 
-**Currently building:** [Girl Dinner Mode](https://girldinnermode.com) — [Girl World Products](https://girlworldproducts.com)
- 
-**Connect:** [LinkedIn](https://www.linkedin.com/in/rtfenter)
+
  
 
