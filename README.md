@@ -4,7 +4,9 @@ A collection of product work, interactive studies, technical explorations, and t
 
 ## Start here
 
-- **Loyalty & Rewards** → B2C loyalty, B2B partner rewards, tiering, incentives, activation, promotions, earning, redemption, and program operations
+## Start here
+
+- **Rewards & Incentives** → B2C loyalty, B2B partner rewards, activation, engagement, tiering, promotions, earning, redemption, and incentive design
 - **Games** → player rewards, progression, engagement, platform experiences, LiveOps, spectatorship, and player insights
 - **Personalization & Discovery** → behavioral signals, recommendations, intent, ranking, experimentation, and discovery
 - **Systems of Trust** → lifecycle, state, access, controls, events, contracts, ownership, and auditability
@@ -12,22 +14,25 @@ A collection of product work, interactive studies, technical explorations, and t
 
 ---
 
-# Loyalty & Rewards
+# Rewards & Incentives
 
-My deepest product domain experience spans both consumer loyalty and B2B partner rewards.
+My deepest product domain experience spans B2C loyalty and B2B partner rewards, with work across activation, engagement, targeted promotions, earning, redemption, eligibility, and program operations.
 
-This section explores how the same core mechanics — eligibility, activation, tiering, incentives, earning, redemption, promotions, and operations — behave differently depending on who the program is built for.
+This section explores how rewards and incentives shape behavior across consumer and partner products, and how the product decisions change depending on who the program is built for.
 
-**In progress**
-- Interactive B2C vs B2B rewards experience
-- Tiering and progression
-- Activation vs enrollment
-- Targeted promotions and experimentation
-- Rewards operations and eligibility
-- Technical loyalty infrastructure
+### B2C Loyalty
 
-→ [Explore Loyalty & Rewards](PORTFOLIO-LINK)
+**FORM** is an interactive product study exploring the consumer loyalty lifecycle through both Member View and Product View.
 
+It covers activation, targeted promotions, segmentation and experimentation, earning and redemption, lifecycle states, returns and reconciliation, and ecommerce/POS.
+
+→ [Launch FORM](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
+
+### B2B Partner Rewards
+
+Next: a separate interactive study exploring partner eligibility, activation, tiering, incentives, lifecycle states, program operations, admin controls, and auditability.
+
+→ [Explore Rewards & Incentives](https://github.com/rtfenter/Loyalty-Systems-Series)
 ---
 
 # Games
