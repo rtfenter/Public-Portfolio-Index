@@ -33,6 +33,7 @@ It covers activation, targeted promotions, segmentation and experimentation, ear
 Next: a separate interactive study exploring partner eligibility, activation, tiering, incentives, lifecycle states, program operations, admin controls, and auditability.
 
 → [Explore Rewards & Incentives](https://github.com/rtfenter/Loyalty-Systems-Series)
+
 ---
 
 # Games
