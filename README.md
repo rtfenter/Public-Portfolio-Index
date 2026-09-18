@@ -10,7 +10,7 @@ My professional experience spans B2C and B2B products, from scaling consumer loy
 
 These cases use generalized examples to show some of the product decisions behind that work.
 
-## 01 / B2B Commerce & Rewards
+## 01 / [B2B Commerce & Rewards](https://github.com/rtfenter/B2B-Commerce-and-Rewards)
 
 ### Order ≠ Earned
 
