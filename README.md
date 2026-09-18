@@ -10,9 +10,9 @@ My professional experience spans B2C and B2B products, from scaling consumer loy
 
 These cases use generalized examples to show some of the product decisions behind that work.
 
-## 01 / B2B Commerce & Rewards
+### 01 / B2B Commerce & Rewards
 
-### Order ≠ Earned
+## Order ≠ Earned
 
 In invoiced B2B commerce, an order can be completed with **$0 collected at checkout**. That means placing an order and earning usable reward value cannot safely represent the same event.
 
@@ -25,6 +25,7 @@ This gives the partner acknowledgement that qualifying activity occurred while g
 **What I'd measure:** straight-through validation rate, validation accuracy, time to availability, and exception rate.
 
 → [View case study](https://github.com/rtfenter/B2B-Commerce-and-Rewards)
+
 ---
 
 ## 02 / B2C Commerce & Loyalty
