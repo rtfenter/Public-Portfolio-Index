@@ -82,13 +82,3 @@ Girl Dinner Mode helps people decide what to eat using personalized meal discove
 **Next:** a product study using *Dungeon Crawler Carl* to explore how reading and listening products can support series discovery, continuation, fandom, and spoiler-aware community experiences.
 
 The study will look across the different product problems represented by audiobook, reading, and social-reading platforms rather than redesigning one existing app.
-
----
-
-## About
-
-I'm Rebecca Fenter, a product manager and solo founder based in Denver.
-
-My work centers on 0→1 products, rewards and incentives, engagement and activation, and the lifecycle, access, and controls behind the platforms people use.
-
-→ [LinkedIn](https://www.linkedin.com/in/rtfenter/)
