@@ -1,127 +1,94 @@
-# Portfolio
+# Product Portfolio
 
-A collection of product work, interactive studies, technical explorations, and things I'm learning across loyalty, platforms, games, personalization, and AI.
+I'm a product manager working across 0→1 products, complex product systems, engagement, and consumer experiences.
 
-## Start here
+A large part of my work sits between what a user experiences and what has to happen underneath to make that experience work: transactions, incentives, lifecycle states, permissions, internal operations, and the rules connecting them.
 
-## Start here
-
-- **Rewards & Incentives** → B2C loyalty, B2B partner rewards, activation, engagement, tiering, promotions, earning, redemption, and incentive design
-- **Games** → player rewards, progression, engagement, platform experiences, LiveOps, spectatorship, and player insights
-- **Personalization & Discovery** → behavioral signals, recommendations, intent, ranking, experimentation, and discovery
-- **Systems of Trust** → lifecycle, state, access, controls, events, contracts, ownership, and auditability
-- **Applied AI** → evaluation, AI-assisted insights, agents, evidence, failure handling, and deterministic vs probabilistic product decisions
+This portfolio includes shipped products and independent product studies based on both professional experience and domains I'm building deeper fluency in.
 
 ---
 
-# Rewards & Incentives
+## Professional Product Work
 
-My deepest product domain experience spans B2C loyalty and B2B partner rewards, with work across activation, engagement, targeted promotions, earning, redemption, eligibility, and program operations.
+My professional experience spans B2C and B2B products, including consumer loyalty, 0→1 partner rewards, transactions, activation and engagement, and the platform logic underneath them.
 
-This section explores how rewards and incentives shape behavior across consumer and partner products, and how the product decisions change depending on who the program is built for.
+### Rewards, Transactions & Incentives
 
-### B2C Loyalty
+Rewards don't exist separately from the transactions and behaviors that create them.
 
-**FORM** is an interactive product study exploring the consumer loyalty lifecycle through both Member View and Product View.
+Some of the product problems I've worked on include:
 
-It covers activation, targeted promotions, segmentation and experimentation, earning and redemption, lifecycle states, returns and reconciliation, and ecommerce/POS.
+- **Order ≠ earned:** In invoiced B2B commerce, an order can exist before the underlying financial activity is validated. Reward design has to separate recognition of qualifying activity from availability of usable value.
+- **Purchase ≠ final transaction:** Returns and refunds can change the transaction after rewards have been earned or redeemed, requiring clear rules for adjustment and reconciliation.
+- **Enrollment ≠ activation:** Access to a program does not mean someone has received value from it. Targeted incentives should start with the behavior the product is trying to change, then define the audience, eligibility, incentive, success event, and measurement window.
+- **Status ≠ reward currency:** Spend, tier progression, points, and promotional multipliers can represent different kinds of value and need rules that prevent one mechanism from unintentionally changing another.
 
-→ [Launch FORM](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
+### Lifecycle, Access & Controls
 
-### B2B Partner Rewards
+A simple customer-facing state can depend on multiple systems agreeing on what that state actually means.
 
-Next: a separate interactive study exploring partner eligibility, activation, tiering, incentives, lifecycle states, program operations, admin controls, and auditability.
+Some of the product problems I've worked on include:
 
-→ [Explore Rewards & Incentives](https://github.com/rtfenter/Loyalty-Systems-Series)
+- **"Suspended" is not one behavior:** Account state can affect transactions, billing, rewards, access, and internal operations differently.
+- **Account state ≠ user authority:** Lifecycle and permissions need to be modeled separately so an active account does not automatically imply every user can perform every action.
+- **External products need internal products:** Customer experiences often require admin workflows for investigation, exception handling, lifecycle changes, permissions, and audit history.
+- **Deprecation ≠ deletion:** Products and platform objects may need to stop accepting new use while remaining available to existing customers and historical transactions.
+- **Flexibility needs guardrails:** Configurable financial and product behavior needs explicit boundaries, validation, ownership, and exception paths.
 
----
-
-# Games
-
-I'm building game-product fluency by studying and prototyping around products and games I genuinely care about.
-
-Current areas include player motivation, rewards and progression, achievements, platform experiences, LiveOps, player feedback, personalization, and the experience of watching games.
-
-**Planned studies**
-- Xbox Achievements vs PlayStation Trophies
-- Hades II progression and rewards
-- Soulslikes and spectatorship
-- AI-assisted player feedback analysis
-- LiveOps and experimentation
-
-→ [Explore Games](PORTFOLIO-LINK)
+*These examples draw from product patterns I've encountered professionally. Companies, transactions, and implementation details are generalized or fictionalized.*
 
 ---
 
-# Personalization & Discovery
+## Personalization & Discovery
 
 How should a product decide what to show someone next?
 
-This section explores explicit preferences, behavioral signals, recency, context, deterministic rules, machine learning, and the tradeoff between familiarity and discovery.
+I'm exploring personalization as a product system: how explicit preferences, behavioral signals, context, recency, and feedback can shape an experience without reducing success to clicks or short-term engagement.
 
-**Planned studies**
-- Personalization decision playground
-- Spotify: familiarity vs discovery
-- Pinterest: long-term interest vs current intent
-- Instagram: engagement vs preference
-- Books: recommendation and discovery across Audible, Everand, and Fable
-
-→ [Explore Personalization & Discovery](PORTFOLIO-LINK)
+**Next:** a product study covering cold start, signals, ranking, familiarity vs discovery, negative feedback, and measurement.
 
 ---
 
-# Systems of Trust
+## Games
 
-Technical explorations of the platform logic underneath product experiences.
+I'm building game-product fluency through product studies of games and platform experiences I genuinely use and care about.
 
-The core questions are simple:
+### [Audience-Aware Game Product Framework](https://github.com/rtfenter/Audience-Aware-Game-Product-Framework)
 
-- What state is something in?
-- What can happen next?
-- Who can act?
-- Under what conditions?
-- How do changes move through the system?
-- What happens when something fails?
-- Can we explain what happened afterward?
+A framework for reasoning about how different player audiences change product decisions.
 
-**Featured work**
-- Schema Evolution Impact Analyzer
-- Event Routing Contract Checker
-- Ownership Boundary Validator
-- Rule evaluation and lifecycle controls
-- Event integrity and reconciliation
+### [Hades II Progression System Study](https://github.com/rtfenter/Hades-II-Progression-System-Study)
 
-→ [Explore Systems of Trust](https://github.com/rtfenter/Systems-of-Trust-Series)
+A product study of progression, rewards, and player motivation in Hades II.
+
+### [Player Accomplishment Product Study](https://github.com/rtfenter/Player-Accomplishment-Product-Study)
+
+A study of how game platforms represent and reinforce player accomplishment.
 
 ---
 
-# Applied AI
-
-Product work exploring where AI actually adds value, how probabilistic systems behave differently from deterministic ones, and how to design for evidence, evaluation, boundaries, and failure.
-
-**Areas I'm exploring**
-- AI-assisted player and user insights
-- Deterministic vs probabilistic decisioning
-- Agent boundaries and human oversight
-- Evaluation and grounding
-- Failure and fallback behavior
-
-→ [Explore Applied AI](PORTFOLIO-LINK)
-
----
-
-## Shipped product
+## Consumer Products
 
 ### Girl Dinner Mode
 
-A personalized meal-decision app for iOS that helps you figure out what to eat.
+A personalized meal-decision app I designed, built, and shipped for iOS.
 
-→ [Girl Dinner Mode](https://girldinnermode.com)
+Girl Dinner Mode helps people decide what to eat using personalized meal discovery, weekly planning, grocery organization, and lightweight daily experiences without calorie tracking, streaks, or guilt.
+
+→ [Girl Dinner Mode](https://girldinnertonight.com)
+
+### Books, Audio & Community
+
+**Next:** a product study using *Dungeon Crawler Carl* to explore how reading and listening products can support series discovery, continuation, fandom, and spoiler-aware community experiences.
+
+The study will look across the different product problems represented by audiobook, reading, and social-reading platforms rather than redesigning one existing app.
 
 ---
 
-## Independent research
+## About
 
-I also maintain separate research notes on Recursive Identity Architecture.
+I'm Rebecca Fenter, a product manager and solo founder based in Denver.
 
-→ [RIA Research Notes](https://github.com/rtfenter/RIA-Research-Notes)
+My work centers on 0→1 products, rewards and incentives, engagement and activation, and the lifecycle, access, and controls behind the platforms people use.
+
+→ [LinkedIn](https://www.linkedin.com/in/rtfenter/)
