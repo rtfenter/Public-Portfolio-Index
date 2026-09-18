@@ -1,84 +1,146 @@
 # Product Portfolio
 
-I'm a product manager working across 0→1 products, complex product systems, engagement, and consumer experiences.
-
-A large part of my work sits between what a user experiences and what has to happen underneath to make that experience work: transactions, incentives, lifecycle states, permissions, internal operations, and the rules connecting them.
-
-This portfolio includes shipped products and independent product studies based on both professional experience and domains I'm building deeper fluency in.
+This portfolio brings together product patterns from my professional experience, products I've shipped independently, and studies I'm using to build deeper fluency in new domains.
 
 ---
 
-## Professional Product Work
+# Professional Product Cases
 
-My professional experience spans B2C and B2B products, including consumer loyalty, 0→1 partner rewards, transactions, activation and engagement, and the platform logic underneath them.
+My professional experience spans B2C and B2B products, from scaling consumer loyalty across ecommerce and POS to building a 0→1 partner rewards platform.
 
-### Rewards, Transactions & Incentives
+These cases use generalized examples to show some of the product decisions behind that work.
 
-Rewards don't exist separately from the transactions and behaviors that create them.
+## 01 / B2B Commerce & Rewards
 
-Some of the product problems I've worked on include:
+### Order ≠ Earned
 
-- **Order ≠ earned:** In invoiced B2B commerce, an order can exist before the underlying financial activity is validated. Reward design has to separate recognition of qualifying activity from availability of usable value.
-- **Purchase ≠ final transaction:** Returns and refunds can change the transaction after rewards have been earned or redeemed, requiring clear rules for adjustment and reconciliation.
-- **Enrollment ≠ activation:** Access to a program does not mean someone has received value from it. Targeted incentives should start with the behavior the product is trying to change, then define the audience, eligibility, incentive, success event, and measurement window.
-- **Status ≠ reward currency:** Spend, tier progression, points, and promotional multipliers can represent different kinds of value and need rules that prevent one mechanism from unintentionally changing another.
+In invoiced B2B commerce, an order can be completed with **$0 collected at checkout**. That means placing an order and earning usable reward value cannot safely represent the same event.
 
-### Lifecycle, Access & Controls
+**Order → Invoice → Pending Validation → Available**
 
-A simple customer-facing state can depend on multiple systems agreeing on what that state actually means.
+**The decision:** Separate recognition of qualifying activity from availability of usable value.
 
-Some of the product problems I've worked on include:
+This gives the partner acknowledgement that qualifying activity occurred while giving the business time to validate the underlying financial activity before creating spendable value.
 
-- **"Suspended" is not one behavior:** Account state can affect transactions, billing, rewards, access, and internal operations differently.
-- **Account state ≠ user authority:** Lifecycle and permissions need to be modeled separately so an active account does not automatically imply every user can perform every action.
-- **External products need internal products:** Customer experiences often require admin workflows for investigation, exception handling, lifecycle changes, permissions, and audit history.
-- **Deprecation ≠ deletion:** Products and platform objects may need to stop accepting new use while remaining available to existing customers and historical transactions.
-- **Flexibility needs guardrails:** Configurable financial and product behavior needs explicit boundaries, validation, ownership, and exception paths.
+**What I'd measure:** straight-through validation rate, validation accuracy, time to availability, and exception rate.
 
-*These examples draw from product patterns I've encountered professionally. Companies, transactions, and implementation details are generalized or fictionalized.*
+---
+
+## 02 / B2C Commerce & Loyalty
+
+### Purchase ≠ Final Transaction
+
+A customer's transaction doesn't necessarily end at checkout. They can earn rewards, redeem value, and later reverse some or all of the transaction through a return or refund.
+
+**Customer:** Purchase → Earn → Redeem → Return  
+**System:** Transaction → Reward Ledger → Adjustment → Reconciliation
+
+**The decision principle:** Customer-facing reward state and underlying financial state should remain explainable and reconcilable throughout the transaction lifecycle.
+
+That means defining deterministic behavior for partial returns, promotional earning, previously redeemed value, adjustments, and negative balances without making the customer experience feel like an accounting system.
+
+**What I'd measure:** reconciliation accuracy, adjustment exceptions, incorrect reward balances, and reward-related customer contacts.
+
+---
+
+## 03 / Engagement & Incentives
+
+### Enrollment ≠ Activation
+
+Enrollment gives someone access to a product or program. It doesn't mean they've experienced its value.
+
+**Enrolled → Activated → Engaged → Retained**
+
+**The decision principle:** Start with the behavior the product is trying to change, not the incentive.
+
+A first qualifying action, repeat behavior, and re-engaging a lapsed user are different objectives. Each requires its own audience, eligibility, incentive, success event, and measurement window.
+
+The distinction that matters is between **offer performance and behavior change**. Claims and clicks show interaction with an offer. They don't establish that the incentive created incremental engagement.
+
+**What I'd measure:** incremental qualifying behavior and progression through the engagement lifecycle, with incentive cost, cannibalization, margin impact, and opt-outs as guardrails.
+
+---
+
+## 04 / Platform Lifecycle & Controls
+
+### One Account State, Multiple Consequences
+
+A simple state like **Suspended** can affect commerce, billing, rewards, user access, and internal operations differently.
+
+**Account State → Product Rules → User Access → Internal Operations → Audit**
+
+**The decision principle:** Define lifecycle states by their effects, not just their names.
+
+Suspension requires decisions about what a customer can still see and do, whether existing obligations or value remain accessible, which new actions are blocked, who internally can change the state, and what must be retained for audit.
+
+It also requires separating **account state from user authority**. An account's lifecycle state and an individual user's permissions answer different product questions.
+
+**What I'd measure:** state propagation failures, manual corrections, support escalations, unauthorized actions, and time to resolve lifecycle exceptions.
+
+---
+
+*These cases draw from product patterns I've encountered professionally. Companies, transactions, systems, and implementation details are generalized or fictionalized.*
+
+---
+
+# Selected Work
+
+## Girl Dinner Mode
+
+**0→1 Consumer Product · Personalization · Decision Support**
+
+A personalized meal-decision app I designed, built, and shipped for iOS.
+
+Girl Dinner Mode learns from user behavior and preferences to help answer a deceptively difficult question: **what should I eat?** The product includes personalized meal discovery, weekly planning, grocery organization, and lightweight daily experiences without calorie tracking, streaks, or guilt.
+
+→ [Girl Dinner Mode](https://girldinnertonight.com)
 
 ---
 
 ## Personalization & Discovery
 
+**Recommendations · Behavioral Signals · Ranking · Experimentation**
+
 How should a product decide what to show someone next?
 
-I'm exploring personalization as a product system: how explicit preferences, behavioral signals, context, recency, and feedback can shape an experience without reducing success to clicks or short-term engagement.
+This study will explore explicit preferences vs inferred behavior, cold start, recency and context, negative signals, familiarity vs discovery, feedback loops, and how to measure whether personalization is actually improving the experience.
 
-**Next:** a product study covering cold start, signals, ranking, familiarity vs discovery, negative feedback, and measurement.
-
----
-
-## Games
-
-I'm building game-product fluency through product studies of games and platform experiences I genuinely use and care about.
-
-### [Audience-Aware Game Product Framework](https://github.com/rtfenter/Audience-Aware-Game-Product-Framework)
-
-A framework for reasoning about how different player audiences change product decisions.
-
-### [Hades II Progression System Study](https://github.com/rtfenter/Hades-II-Progression-System-Study)
-
-A product study of progression, rewards, and player motivation in Hades II.
-
-### [Player Accomplishment Product Study](https://github.com/rtfenter/Player-Accomplishment-Product-Study)
-
-A study of how game platforms represent and reinforce player accomplishment.
+**Status:** Next to build
 
 ---
 
-## Consumer Products
+# Games
 
-### Girl Dinner Mode
+Product studies focused on player behavior, progression, accomplishment, and how product decisions change across different player audiences.
 
-A personalized meal-decision app I designed, built, and shipped for iOS.
+## Audience-Aware Game Product Framework
 
-Girl Dinner Mode helps people decide what to eat using personalized meal discovery, weekly planning, grocery organization, and lightweight daily experiences without calorie tracking, streaks, or guilt.
+How differences between player audiences change the product decisions surrounding the same game or platform experience.
 
-→ [Girl Dinner Mode](https://girldinnertonight.com)
+→ [View project](https://github.com/rtfenter/Audience-Aware-Game-Product-Framework)
 
-### Books, Audio & Community
+## Hades II Progression System Study
 
-**Next:** a product study using *Dungeon Crawler Carl* to explore how reading and listening products can support series discovery, continuation, fandom, and spoiler-aware community experiences.
+A product study of progression, rewards, and player motivation in *Hades II*.
 
-The study will look across the different product problems represented by audiobook, reading, and social-reading platforms rather than redesigning one existing app.
+→ [View project](https://github.com/rtfenter/Hades-II-Progression-System-Study)
+
+## Player Accomplishment Product Study
+
+A study of how game platforms represent accomplishment and how those systems shape player motivation and behavior.
+
+→ [View project](https://github.com/rtfenter/Player-Accomplishment-Product-Study)
+
+---
+
+# Books, Audio & Community
+
+## Dungeon Crawler Carl Product Study
+
+**Discovery · Series Engagement · Audio · Community**
+
+A planned consumer product study using *Dungeon Crawler Carl* to explore the product experience surrounding a series, not just the content itself.
+
+The study will look at discovery, moving through a series, reading vs listening, fandom, spoiler-aware community, and the different product problems faced by platforms such as Audible, Everand, and Fable.
+
+**Status:** Planned
