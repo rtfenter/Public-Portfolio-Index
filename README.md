@@ -121,7 +121,7 @@ These studies use games and gaming platforms to explore player motivation, progr
 
 ### 01 / Player Accomplishment
 
-## Completion ≠ Accomplishment
+## Who Decides What Represents a Player?
 
 Xbox Achievements and PlayStation Trophies can record similar behaviors while making different aspects of accomplishment salient. The study started as a platform comparison and became a question about what gets lost when years of player behavior are compressed into a universal score.
 
@@ -135,7 +135,7 @@ Xbox Achievements and PlayStation Trophies can record similar behaviors while ma
 
 ### 02 / Progression & Player Agency
 
-## Progression ≠ Removing Constraints
+## How Progression Creates Meaningful Choice
 
 *Hades II* gives players more power, options, and control over time without allowing progression to eliminate the uncertainty and tradeoffs that make individual runs meaningful.
 
@@ -149,7 +149,7 @@ The study uses Arcana and Grasp to examine access, acquisition, capacity, resour
 
 ### 03 / Player & Audience Experience
 
-## Playing ≠ Experiencing
+## When Audience Evidence Should Change a Game Decision
 
 Game telemetry describes the person holding the controller, but games can also have meaningful audiences who watch for mastery, narrative, suspense, community, discovery, or relaxation.
 
