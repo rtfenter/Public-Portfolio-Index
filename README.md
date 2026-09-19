@@ -28,18 +28,18 @@ This gives the partner acknowledgement that qualifying activity occurred while g
 
 ---
 
-## 02 / B2C Commerce & Loyalty
+### 02 / B2C Commerce & Loyalty
 
-### Purchase ≠ Final Transaction
+## Purchase ≠ Final Transaction
 
-A customer's transaction doesn't necessarily end at checkout. They can earn rewards, redeem value, and later reverse some or all of the transaction through a return or refund.
+A customer's transaction doesn't necessarily end at checkout. They can redeem loyalty value, use it toward a purchase, and later reverse that transaction through a return or refund.
 
-**Customer:** Purchase → Earn → Redeem → Return  
-**System:** Transaction → Reward Ledger → Adjustment → Reconciliation
+**Customer:** Points → Reward → Purchase → Return → New Purchase  
+**System:** Redemption → Earning → Reversal → Restoration → New Earning
 
 **The decision principle:** Customer-facing reward state and underlying financial state should remain explainable and reconcilable throughout the transaction lifecycle.
 
-That means defining deterministic behavior for partial returns, promotional earning, previously redeemed value, adjustments, and negative balances without making the customer experience feel like an accounting system.
+That means defining deterministic behavior for redeemed value, payment refunds, earning reversals, reward restoration, and the new purchase without making the customer experience feel like an accounting system.
 
 **What I'd measure:** reconciliation accuracy, adjustment exceptions, incorrect reward balances, and reward-related customer contacts.
 
@@ -47,9 +47,9 @@ That means defining deterministic behavior for partial returns, promotional earn
 
 ---
 
-## 03 / Engagement & Incentives
+### 03 / Engagement & Incentives
 
-### Enrollment ≠ Activation
+## Enrollment ≠ Activation
 
 Enrollment gives someone access to a product or program. It doesn't mean they've experienced its value.
 
@@ -61,27 +61,25 @@ A first qualifying action, repeat behavior, and re-engaging a lapsed user are di
 
 The distinction that matters is between **offer performance and behavior change**. Claims and clicks show interaction with an offer. They don't establish that the incentive created incremental engagement.
 
-**What I'd measure:** incremental qualifying behavior and progression through the engagement lifecycle, with incentive cost, cannibalization, margin impact, and opt-outs as guardrails.
+**What I'd measure:** incremental activation lift, activation rate, time to first qualifying purchase, incentive use, and subsequent engagement, with incentive cost, incremental contribution, cannibalization, and over-targeting as guardrails.
 
 → [View case study](https://github.com/rtfenter/Engagement-and-Incentives) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/#engagement)
 
 ---
 
-## 04 / Platform Lifecycle & Controls
+### 04 / Platform Lifecycle & Controls
 
-### One Account State, Multiple Consequences
+## One Account State, Multiple Consequences
 
-A simple state like **Suspended** can affect commerce, billing, rewards, user access, and internal operations differently.
+A customer can be restricted by an upstream account state, a loyalty-specific restriction, or their own participation choice. Those states can overlap, but they don't share the same owner, scope, or recovery path.
 
-**Account State → Product Rules → User Access → Internal Operations → Audit**
+**Source → Authority → Scope → Product Effects → Recovery → Audit**
 
-**The decision principle:** Define lifecycle states by their effects, not just their names.
+**The decision principle:** State propagates according to its source, authority, and scope. Recovery removes only the cause it actually resolves.
 
-Suspension requires decisions about what a customer can still see and do, whether existing obligations or value remain accessible, which new actions are blocked, who internally can change the state, and what must be retained for audit.
+That means an upstream restriction can propagate into dependent products, while a loyalty-specific restriction or customer participation choice remains contained to Loyalty. Each authority can change only the state it owns.
 
-It also requires separating **account state from user authority**. An account's lifecycle state and an individual user's permissions answer different product questions.
-
-**What I'd measure:** state propagation failures, manual corrections, support escalations, unauthorized actions, and time to resolve lifecycle exceptions.
+**What I'd measure:** lifecycle integrity, state propagation accuracy, recovery accuracy, manual corrections, and lifecycle-related support volume, with unauthorized state changes, cross-product side effects, and audit gaps as guardrails.
 
 ---
 
