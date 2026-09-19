@@ -99,7 +99,7 @@ A personalized meal-decision app I designed, built, and shipped for iOS.
 
 Girl Dinner Mode learns from user behavior and preferences to help answer a deceptively difficult question: **what should I eat?** The product includes personalized meal discovery, weekly planning, grocery organization, and lightweight daily experiences without calorie tracking, streaks, or guilt.
 
-→ [Girl Dinner Mode](https://girldinnertonight.com)
+→ [Girl Dinner Mode](https://girldinnermode.com)
 
 ---
 
