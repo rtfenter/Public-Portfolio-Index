@@ -6,7 +6,7 @@ This portfolio brings together product patterns from my professional experience,
 
 # Professional Product Cases
 
-My professional experience spans B2C and B2B products, from scaling consumer loyalty across ecommerce and POS to building a 0→1 partner rewards platform.
+My professional experience spans B2C and B2B products, including scaling consumer loyalty across ecommerce and POS to building a 0→1 partner rewards platform.
 
 These cases use generalized examples to show some of the product decisions behind that work.
 
