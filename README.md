@@ -43,7 +43,7 @@ That means defining deterministic behavior for partial returns, promotional earn
 
 **What I'd measure:** reconciliation accuracy, adjustment exceptions, incorrect reward balances, and reward-related customer contacts.
 
-→ [View case study](https://github.com/rtfenter/B2C-Commerce-and-Loyalty)
+→ [View case study](https://github.com/rtfenter/B2C-Commerce-and-Loyalty) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
 
 ---
 
