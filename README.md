@@ -117,25 +117,47 @@ This study will explore explicit preferences vs inferred behavior, cold start, r
 
 # Games
 
-Product studies focused on player behavior, progression, accomplishment, and how product decisions change across different player audiences.
+These studies use games and gaming platforms to explore player motivation, progression, accomplishment, audience behavior, and how evidence about behavior should inform product decisions.
 
-## Audience-Aware Game Product Framework
+### 01 / Player Accomplishment
 
-How differences between player audiences change the product decisions surrounding the same game or platform experience.
+## Completion ≠ Accomplishment
 
-→ [View project](https://github.com/rtfenter/Audience-Aware-Game-Product-Framework)
+Xbox Achievements and PlayStation Trophies can record similar behaviors while making different aspects of accomplishment salient. The study started as a platform comparison and became a question about what gets lost when years of player behavior are compressed into a universal score.
 
-## Hades II Progression System Study
+**The product decision:** Preserve the verified accomplishment system, but let players curate a limited set of verified accomplishments that represent what matters to them.
 
-A product study of progression, rewards, and player motivation in *Hades II*.
+**The principle:** The platform verifies what happened. The player decides what represents them.
+
+→ [View project](https://github.com/rtfenter/Player-Accomplishment-Product-Study)
+
+---
+
+### 02 / Progression & Player Agency
+
+## Progression ≠ Removing Constraints
+
+*Hades II* gives players more power, options, and control over time without allowing progression to eliminate the uncertainty and tradeoffs that make individual runs meaningful.
+
+**The product principle:** Progression can relax a constraint without eliminating the thing that made the constraint meaningful.
+
+The study uses Arcana and Grasp to examine access, acquisition, capacity, resource economics, player agency, and how telemetry should be interpreted before changing progression balance.
 
 → [View project](https://github.com/rtfenter/Hades-II-Progression-System-Study)
 
-## Player Accomplishment Product Study
+---
 
-A study of how game platforms represent accomplishment and how those systems shape player motivation and behavior.
+### 03 / Player & Audience Experience
 
-→ [View project](https://github.com/rtfenter/Player-Accomplishment-Product-Study)
+## Playing ≠ Experiencing
+
+Game telemetry describes the person holding the controller, but games can also have meaningful audiences who watch for mastery, narrative, suspense, community, discovery, or relaxation.
+
+**The product decision:** Treat audience experience as an additional evidence set, not an optimization target.
+
+The framework asks whether player and audience evidence align or diverge, then maps that to four responses: **Protect · Separate · Investigate · Improve.**
+
+→ [View project](https://github.com/rtfenter/Audience-Aware-Game-Product-Framework)
 
 ---
 
