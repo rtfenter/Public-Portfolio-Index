@@ -63,6 +63,8 @@ The distinction that matters is between **offer performance and behavior change*
 
 **What I'd measure:** incremental qualifying behavior and progression through the engagement lifecycle, with incentive cost, cannibalization, margin impact, and opt-outs as guardrails.
 
+→ [View case study](https://github.com/rtfenter/Engagement-and-Incentives) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/#engagement)
+
 ---
 
 ## 04 / Platform Lifecycle & Controls
