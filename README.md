@@ -85,6 +85,22 @@ That means an upstream restriction can propagate into dependent products, while 
 
 ---
 
+### 05 / Shipping Through Imperfect Systems
+
+## When the Ideal Product Isn't the Shippable Product
+
+A rewards product can have clear business rules and still depend on systems, data, and operational capabilities that weren't designed to support them.
+
+**The challenge:** Decide what can be automated confidently, what needs controlled operations today, and what should preserve a path to automation later.
+
+The work required balancing **Partner experience · Financial integrity · Legal requirements · Data reliability · Technical feasibility · Operational burden · Future extensibility** while moving from pilot toward broader launch.
+
+**The principle:** Automation isn't the objective. Reliable execution is.
+
+→ [View case study](https://github.com/rtfenter/Shipping-Through-Imperfect-Systems)
+
+---
+
 *These cases draw from product patterns I've encountered professionally. Companies, transactions, systems, and implementation details are generalized or fictionalized.*
 
 ---
@@ -165,14 +181,4 @@ The framework asks whether player and audience evidence align or diverge, then m
 
 ---
 
-# Books, Audio & Community
-
-## Dungeon Crawler Carl Product Study
-
-**Discovery · Series Engagement · Audio · Community**
-
-A planned consumer product study using *Dungeon Crawler Carl* to explore the product experience surrounding a series, not just the content itself.
-
-The study will look at discovery, moving through a series, reading vs listening, fandom, spoiler-aware community, and the different product problems faced by platforms such as Audible, Everand, and Fable.
-
-**Status:** Planned
+# Creators, Content & Community
