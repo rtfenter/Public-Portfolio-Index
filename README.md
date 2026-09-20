@@ -182,3 +182,19 @@ The framework asks whether player and audience evidence align or diverge, then m
 ---
 
 # Creators, Content & Community
+
+### 01 / Account Onboarding & Intent
+
+## Designing Onboarding Around User Intent
+
+A solo founder can be the business owner, content creator, and person represented by the account at the same time. Using Instagram as the case environment, this study examines what happens when real-world intent doesn't map cleanly to a platform's account classifications.
+
+**The product decision:** Capture lightweight, persistent intent before asking users to navigate the professional account model.
+
+The proposed model separates **intent, next steps, and outcomes**, allowing the platform to use what someone is trying to accomplish as context while preserving whatever account classifications, eligibility rules, and policies still need to exist underneath.
+
+**The principle:** Users shouldn't need to understand a platform's internal taxonomy before the platform can understand what they're trying to accomplish.
+
+→ [View case study](https://github.com/rtfenter/Account-Onboarding-and-Intent)
+
+---
