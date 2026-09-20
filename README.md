@@ -43,7 +43,7 @@ That means defining deterministic behavior for redeemed value, payment refunds, 
 
 **What I'd measure:** reconciliation accuracy, adjustment exceptions, incorrect reward balances, and reward-related customer contacts.
 
-→ [View case study](https://github.com/rtfenter/B2C-Commerce-and-Loyalty) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
+→ [View case study](https://github.com/rtfenter/B2C-Loyalty-Product-Study) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
 
 ---
 
@@ -105,13 +105,17 @@ Girl Dinner Mode learns from user behavior and preferences to help answer a dece
 
 ## Personalization & Discovery
 
-**Recommendations · Behavioral Signals · Ranking · Experimentation**
+**Profile Formation · Evolving Intent · Recommendations · ML & AI Product Decisions**
 
-How should a product decide what to show someone next?
+How should a personalization system learn about someone without treating its current understanding of them as permanent truth?
 
-This study will explore explicit preferences vs inferred behavior, cold start, recency and context, negative signals, familiarity vs discovery, feedback loops, and how to measure whether personalization is actually improving the experience.
+The study follows the same user from cold start through an established personalized experience, separating **what the user actually did, what the system inferred, and what the product decided to show next**.
 
-**Status:** Next to build
+It explores low-burden cold start, durable vs emerging interests, signal strength and scope, discovery and experience composition, then examines how a PM should reason about ML optimization, experiment tradeoffs, deterministic product policy, and where semantic AI actually adds value.
+
+**The principle:** Evidence is fact. Inference is a hypothesis. Recommendation is a decision.
+
+→ [View case study](https://github.com/rtfenter/Personalization-and-Discovery) · [Launch interactive demo](https://rtfenter.github.io/Personalization-Discovery-Lab/)
 
 ---
 
