@@ -81,7 +81,7 @@ That means an upstream restriction can propagate into dependent products, while 
 
 **What I'd measure:** lifecycle integrity, state propagation accuracy, recovery accuracy, manual corrections, and lifecycle-related support volume, with unauthorized state changes, cross-product side effects, and audit gaps as guardrails.
 
-→ [View case study](https://github.com/rtfenter/Platform-Lifecycle-and-Controls) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/#platform)
+→ [View case study](https://github.com/rtfenter/Platform-Lifecycle-Controls) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/#platform)
 
 ---
 
