@@ -139,7 +139,7 @@ It explores low-burden cold start, durable vs emerging interests, signal strengt
 
 These studies use games and gaming platforms to explore player motivation, progression, accomplishment, audience behavior, and how evidence about behavior should inform product decisions.
 
-### 01 / Player Accomplishment
+### 01 / Player Accomplishment Product Study
 
 ## Who Decides What Represents a Player?
 
@@ -163,7 +163,7 @@ Xbox Achievements and PlayStation Trophies can record similar behaviors while ma
 
 The study uses Arcana and Grasp to examine access, acquisition, capacity, resource economics, player agency, and how telemetry should be interpreted before changing progression balance.
 
-→ [View project](https://github.com/rtfenter/Hades-II-Progression-System-Study)
+→ [View project](https://github.com/rtfenter/Progression-Player-Agency)
 
 ---
 
@@ -177,7 +177,7 @@ Game telemetry describes the person holding the controller, but games can also h
 
 The framework asks whether player and audience evidence align or diverge, then maps that to four responses: **Protect · Separate · Investigate · Improve.**
 
-→ [View project](https://github.com/rtfenter/Audience-Aware-Game-Product-Framework)
+→ [View project](https://github.com/rtfenter/Player-Audience-Experience)
 
 ---
 
