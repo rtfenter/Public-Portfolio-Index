@@ -43,7 +43,7 @@ That means defining deterministic behavior for redeemed value, payment refunds, 
 
 **What I'd measure:** reconciliation accuracy, adjustment exceptions, incorrect reward balances, and reward-related customer contacts.
 
-→ [View case study](https://github.com/rtfenter/B2C-Loyalty-Product-Study) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
+→ [View case study](https://github.com/rtfenter/B2C-Commerce-and-Loyalty) · [Launch interactive demo](https://rtfenter.github.io/B2C-Loyalty-Product-Study/)
 
 ---
 
