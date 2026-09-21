@@ -181,6 +181,22 @@ The framework asks whether player and audience evidence align or diverge, then m
 
 ---
 
+### 04 / Access and Ownership Product Study
+
+## When Ownership Doesn't Mean Usability
+
+Xbox Game Pass can give a player access to a base game while allowing them to purchase add-on content separately. If access to the base game later disappears, the player can still own the add-on without being able to use it.
+
+**The product decision:** Model acquisition, base-game access, and dependent-content usability separately, evaluating all applicable access grants before changing the player experience.
+
+**The principle:** Losing one access grant should affect usability only when no other valid grant satisfies the prerequisite.
+
+The study uses a bounded Game Pass scenario to examine subscription and purchase-based access, dependent content, recovery context, conflicting system states, and how to communicate an unusable purchase without implying that ownership was lost.
+
+→ [View case study](https://github.com/rtfenter/Access-and-Ownership-Product-Study)
+
+---
+
 # Creators, Content & Community
 
 ### 01 / Account Onboarding & Intent
